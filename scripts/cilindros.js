@@ -2,11 +2,11 @@
 funciones para calcular el volumen de un cilindro
 */
 
-  // Volumen = (π x Radio2) x Altura.
-  function volumenCilindro(radio, altura){
-    let volumen = ((Math.PI * (radio ** 2)) * altura).toFixed(2)
-    return volumen;
-  }
+// Volumen = (π x Radio2) x Altura.
+function volumenCilindro(radio, altura){
+  let volumen = ((Math.PI * (radio ** 2)) * altura).toFixed(2)
+  return volumen;
+}
 
 
 const formArea = document.querySelector(".volumen")

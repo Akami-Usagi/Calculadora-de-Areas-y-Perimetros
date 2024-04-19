@@ -2,11 +2,11 @@
 funciones para calcular el volumen de un cuboide
 */
 
-  // volumen = lado por lado por lado
-  function volumenCuboide(ancho, largo, alto){
-    let volumen = ancho * largo * alto;
-    return volumen;
-  }
+// volumen = lado por lado por lado
+function volumenCuboide(ancho, largo, alto){
+  let volumen = ancho * largo * alto;
+  return volumen;
+}
 
 
 const formArea = document.querySelector(".volumen")

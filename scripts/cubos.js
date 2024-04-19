@@ -2,11 +2,11 @@
 funciones para calcular el volumen de un cubo
 */
 
-  // volumen = lado por lado por lado
-  function volumenCubo(lado){
-    let volumen = lado ** 3;
-    return volumen;
-  }
+// volumen = lado por lado por lado
+function volumenCubo(lado){
+  let volumen = lado ** 3;
+  return volumen;
+}
 
 
 const formArea = document.querySelector(".volumen")

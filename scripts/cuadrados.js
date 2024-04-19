@@ -2,11 +2,11 @@
 funciones para calcular el area de un cuadrado
 */
 
-  // area = lado por lado
-  function areaCuadrado(lado){
-    let area = lado ** 2;
-    return area
-  }
+// area = lado por lado
+function areaCuadrado(lado){
+  let area = lado ** 2;
+  return area
+}
 
 
 const formArea = document.querySelector(".area")

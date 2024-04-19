@@ -2,11 +2,11 @@
 funciones para calcular el volumen de un cono
 */
 
-  // Volumen = (π x Radio2) x Altura / 3
-  function volumenCilindro(radio, altura){
-    let volumen = (((Math.PI * (radio ** 2)) * altura) / 3).toFixed(2)
-    return volumen;
-  }
+// Volumen = (π x Radio2) x Altura / 3
+function volumenCilindro(radio, altura){
+  let volumen = (((Math.PI * (radio ** 2)) * altura) / 3).toFixed(2)
+  return volumen;
+}
 
 
 const formArea = document.querySelector(".volumen")

@@ -2,11 +2,11 @@
 funciones para calcular el volumen de una piramide
 */
 
-  // volumen = lado por lado por lado dividido 3
-  function volumenPiramide(ancho, largo, alto){
-    let volumen = ((ancho * largo * alto) / 3).toFixed(2);
-    return volumen;
-  }
+// volumen = lado por lado por lado dividido 3
+function volumenPiramide(ancho, largo, alto){
+  let volumen = ((ancho * largo * alto) / 3).toFixed(2);
+  return volumen;
+}
 
 
 const formArea = document.querySelector(".volumen")
